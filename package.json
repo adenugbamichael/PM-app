@@ -8,6 +8,9 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "prisma": {
+    "seed": "ts-node -P tsconfig-seed.json -r tsconfig-paths/register --transpileOnly prisma/seed.ts"
+  },
   "dependencies": {
     "@next/font": "13.3.4",
     "@prisma/client": "4.6.1",
@@ -26,6 +29,7 @@
     "typescript": "^4.9.4"
   },
   "devDependencies": {
+    "@types/react": "18.2.12",
     "autoprefixer": "^10.4.14",
     "postcss": "^8.4.24",
     "prisma": "4.6.1",
