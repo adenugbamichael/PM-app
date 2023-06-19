@@ -1,4 +1,4 @@
-import clsx from "clsx"
+import clsx from "clsx";
 
 const Input = ({ className, ...props }) => {
   return (
@@ -9,7 +9,7 @@ const Input = ({ className, ...props }) => {
       )}
       {...props}
     />
-  )
-}
+  );
+};
 
-export default Input
+export default Input;

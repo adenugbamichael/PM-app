@@ -1,4 +1,4 @@
-import clsx from "clsx"
+import clsx from "clsx";
 
 const Card = ({ className, children }) => {
   return (
@@ -10,7 +10,7 @@ const Card = ({ className, children }) => {
     >
       {children}
     </div>
-  )
-}
+  );
+};
 
-export default Card
+export default Card;
